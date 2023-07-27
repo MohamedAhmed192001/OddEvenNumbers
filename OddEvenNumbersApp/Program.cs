@@ -13,7 +13,7 @@ namespace OddEvenNumbers
 
             Console.ReadKey();
         }
-
+        // function to print numbers from 1 to 9
         static void printNumbers(string title, IEnumerable<int> numbers)
         {
             Console.WriteLine();
@@ -26,7 +26,9 @@ namespace OddEvenNumbers
             Console.Write("]");
             Console.WriteLine();
         }
+        // function to get even numbers from 1 to 9
         static bool isEven(int number) => number % 2 == 0;
+        // function to get odd numbers from 1 to 9
         static bool isOdd(int number) => !isEven(number);
     }
 }
